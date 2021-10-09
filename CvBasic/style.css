@@ -150,8 +150,8 @@ body{
     height: 115px;
     background: #0bb5f4;
 }
-.resume .resume_right ul li {
-    margin-left: 15px;
+.resume .resume_right .resume_hobby ul li {
+    margin-left: 40px;
 }
 
 
