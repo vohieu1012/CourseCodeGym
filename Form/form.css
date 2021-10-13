@@ -5,3 +5,7 @@ input {
     margin-left: 1000px;
 
 }
+body{
+    background-color: lavender;
+    border: lightblue;
+}
