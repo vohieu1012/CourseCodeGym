@@ -1,0 +1,13 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse:collapse;
+    width: 100%;
+}
+th, td {
+    border: solid 1px rgb(12, 12, 11);
+    padding: 10px;
+    text-align: center;
+}
+th{
+  background-color: red;
+}

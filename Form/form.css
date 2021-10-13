@@ -1,3 +1,7 @@
 .wufoo {
     font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
 }
+input {
+    margin-left: 1000px;
+
+}
