@@ -5,11 +5,11 @@
  .trang{
     background-color: white;
 }
-.table {
-    width: 883px;
+.table{
+    width: 880px;
     height: 779px;
     border-collapse: collapse;
-    border: 1px solid orange;
+    border: 1px solid black;
 }
  .row_1 ,.margin_left{
     background-color: orange;
@@ -25,4 +25,28 @@
 .margin_left{
     width: 91px;
     
+}
+.wrap {
+   
+    border: 1px solid;
+    border-color: blue;
+    width: 880px;
+    height: 36px;
+    background-color: blue;
+}
+.wrap .icon {
+   position: absolute;
+   margin-top: 5px;
+   margin-left: 848px;
+
+}
+.function, .content {
+    background-color: rgb(192, 176, 176);
+    border  :1px solid ;
+    width: 880px;
+    height: 36px;
+}
+.function th {
+    padding: 10px;
+   
 }
