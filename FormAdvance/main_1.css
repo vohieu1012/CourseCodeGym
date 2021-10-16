@@ -1,0 +1,28 @@
+.den{
+    background-color: black;
+    
+}
+ .trang{
+    background-color: white;
+}
+.table {
+    width: 883px;
+    height: 779px;
+    border-collapse: collapse;
+    border: 1px solid orange;
+}
+ .row_1 ,.margin_left{
+    background-color: orange;
+
+}
+.margin, .row_end {
+    background-color: orange;
+}
+.row_1{
+    width: 5px;
+    height: 80px;
+}
+.margin_left{
+    width: 91px;
+    
+}
