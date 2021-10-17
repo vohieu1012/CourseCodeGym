@@ -4,8 +4,10 @@
 }
  .trang{
     background-color: white;
+
 }
-.table{
+
+.table table{
     width: 880px;
     height: 779px;
     border-collapse: collapse;
@@ -33,13 +35,14 @@
     width: 880px;
     height: 36px;
     background-color: blue;
+    display: flex;
+   
 }
-.wrap .icon {
-   position: absolute;
-   margin-top: 5px;
-   margin-left: 848px;
+ .wrap .icon {
 
-}
+  margin-left: 712px;
+
+} 
 .function, .content {
     background-color: rgb(192, 176, 176);
     border  :1px solid ;
