@@ -1,0 +1,48 @@
+.header{
+    background-color: violet;
+    height: 100px;
+}
+.main{
+    background-color: red;
+    height: 500px;
+    width: 70%;
+    float: left;
+    overflow: scroll;
+    display: inline-block;
+
+}
+.main p {
+    text-align: center;
+}
+.sideBar{
+    background-color: #2e8b57;
+    height: 500px;
+    float: left;
+    width: 30%;
+
+}
+.footer{
+    background-color: tan;
+    height: 100px;
+    clear: both;
+}
+body {
+    background-image: url('./CvBasic/profile.png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+.main, .header ,.footer,.sideBar {
+    opacity: 0.8;
+}
+h1{
+   text-align: center;
+   font-family: fantasy;
+}
+.header img{
+    height: 100%;
+    align-items: center;
+}
+.sideBar img {
+    height: 100%;
+}

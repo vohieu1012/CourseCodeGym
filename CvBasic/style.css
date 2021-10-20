@@ -112,6 +112,7 @@ body{
     width: 520px;
     background: #fff;
     padding: 25px;
+    height: 100%;
 }
 .resume .resume_right .bold{
     color: #0bb5f4;

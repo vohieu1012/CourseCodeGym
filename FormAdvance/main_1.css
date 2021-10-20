@@ -8,7 +8,7 @@
 }
 
 .table table{
-    width: 880px;
+    width: 882px;
     height: 779px;
     border-collapse: collapse;
     border: 1px solid black;
@@ -45,11 +45,13 @@
 } 
 .function, .content {
     background-color: rgb(192, 176, 176);
-    border  :1px solid ;
+    border  :1px solid black ;
+    border-collapse: collapse;
     width: 880px;
     height: 36px;
 }
 .function th {
-    padding: 10px;
-   
+  display: flexbox;
+  padding: 10px;
 }
+
