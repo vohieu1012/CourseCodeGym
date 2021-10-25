@@ -1,0 +1,56 @@
+
+body {
+    border: 1px solid darkgrey;
+    background-color: darkgrey;
+}
+header, nav, footer, section, article, aside {
+    background-color: whitesmoke;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+   margin-bottom: 5px;
+    height: 50px;
+  
+}
+nav {
+    height: 30px;
+   margin-bottom: 5px;
+}
+
+footer {
+    clear: both;
+}
+.content {
+    float: left;
+    width: 50%;
+    height: 600px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    
+}
+aside {
+  
+    display: inline-block;
+    width: 705px;
+    height: 600px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+section {
+    height: 50%;
+    margin-bottom: 5px;
+}
+article {
+    height: 295px;
+    margin-bottom:5px ;
+  
+}
+footer {
+    height: 50px;
+}

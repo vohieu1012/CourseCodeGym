@@ -1,0 +1,28 @@
+.header {
+    background-color: tan;
+    height: 100px;
+
+}
+.main {
+    background-color: teal;
+    overflow: scroll;
+    height: 500px;
+    width: 70%;
+    padding-left: 35%;
+}
+.footer {
+    background-color: tomato;
+    height: 100px;
+}
+.sideBar {
+    background-color: blueviolet;
+    width: 30%;
+    background-image: url('../CvBasic/profile.png');
+    
+    background-size: 100% 100%;
+    background-attachment:local;
+    
+}
+.wrap {
+    display: flex;
+}
