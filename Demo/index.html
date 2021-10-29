@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .image {
+            float: left;
+            width: 25%;
+            padding: 0 6px;
+            text-align: center;
+            display: block;
+          
+
+        }
+
+        .image img {
+            width: 100%;
+           
+        }
+        .image div {
+            border: 0.5px solid darkgray;
+        }
+       .image  div:hover {
+        border: 0.1px solid black;
+       }
+       .footer p {
+           clear: both;
+           padding-top: 20px;
+       }
+        @media screen and (max-width:700px) {
+            .image {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width:500px) {
+            .image {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Responsive Image Gallery</h2>
+    <h4>Resize the browser window to see the effect</h4>
+    <div class="image">
+        <div class="gallery">
+            <a href="./Untitled1.jpeg" target="_blank"><img src="./Untitled1.jpeg" alt=""></a>
+        </div>
+        <div class="p">
+            <p>Add a description of the image here</p>
+        </div>
+    </div>
+    <div class="image">
+        <div class="gallery">
+            <a href="./Untitled1.jpeg" target="_blank"><img src="./Untitled1.jpeg" alt=""></a>
+        </div>
+        <div class="p">
+            <p>Add a description of the image here</p>
+        </div>
+    </div>
+    <div class="image">
+        <div class="gallery">
+            <a href="./Untitled1.jpeg" target="_blank"><img src="./Untitled1.jpeg" alt=""></a>
+        </div>
+        <div class="p">
+            <p>Add a description of the image here</p>
+        </div>
+    </div>
+    <div class="image">
+        <div class="gallery">
+            <a href="./Untitled1.jpeg" target="_blank"><img src="./Untitled1.jpeg" alt=""></a>
+        </div>
+        <div class="p">
+            <p>Add a description of the image here</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than
+            700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images
+            side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+    </div>
+</body>
+
+</html>
