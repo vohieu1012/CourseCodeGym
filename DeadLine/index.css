@@ -1,33 +1,33 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     background-color: white;
     border: 1px solid white;
 }
 
-
 main {
-
     height: 1000px;
-   
 }
+
 main .shows {
-display: flex;
-float: left;
-margin-left: 115px;
-margin-bottom: 20px;
-
-
+    display: flex;
+    float: left;
+    margin-left: 115px;
+    margin-bottom: 20px;
 }
+
 main .shows a {
     text-decoration: none;
     color: black;
 }
-main .shows  i{
+
+main .shows i {
     font-size: 8px
 }
-main .shows .anchor a{
+
+main .shows .anchor a {
     padding-right: 5px;
     padding-left: 5px;
 }
@@ -36,23 +36,25 @@ aside {
     width: 50%;
     float: left;
     position: relative;
+    clear: both;
 }
 
 aside .regis {
     float: right;
     width: 70%;
-    background-color:#F5F7FF;
+    background-color: #F5F7FF;
     clear: both;
     height: 400px;
     border: 1px solid #F5F7FF;
 }
+
 article {
     float: left;
     width: 50%;
     position: relative;
 }
 
-article .newCustom{
+article .newCustom {
     float: left;
     width: 70%;
     margin-left: 20px;
@@ -61,15 +63,17 @@ article .newCustom{
     position: relative;
     border: 1px solid #F5F7FF;
 }
-article .newCustom #create{
+
+article .newCustom #create {
     background-color: #40AD87;
-    color:white;
+    color: white;
     width: 150px;
     height: 40px;
     border-radius: 30px;
-    border: 1px solid  #40AD87;
+    border: 1px solid #40AD87;
     margin-top: 30px;
 }
+
 article .newCustom #create:hover {
     cursor: pointer;
 }
@@ -79,11 +83,11 @@ article .newCustom .ele, aside .regis .ele {
     position: absolute;
     margin-top: 30px;
 }
+
 .regis form input {
     width: 350px;
     height: 40px;
-    
-
+    text-shadow: none;
 }
 
 .regis form #sign {
@@ -93,117 +97,90 @@ article .newCustom .ele, aside .regis .ele {
     float: left;
     height: 40px;
     border-radius: 30px;
-    background-color: #40AD87 ;
-    border: 1px solid  #40AD87;
+    background-color: #40AD87;
+    border: 1px solid #40AD87;
     color: white;
 }
-.regis form  :hover {
+
+.regis form :hover {
     cursor: pointer;
 }
+
 .regis form input :hover {
     border: 0.4px solid black;
 }
-.regis form  p span {
+
+.regis form p span {
     color: rgb(187, 40, 14);
 }
-.regis form a{
+
+.regis form a {
     float: left;
     padding-top: 40px;
     padding-left: 20px;
-  text-decoration: none;
-  color:#40AD87 ;
+    text-decoration: none;
+    color: #40AD87;
 }
 
-aside p ,article p, nav ul li {
+aside p, article p{
     font-weight: bolder;
 }
+
 main h1 {
     margin-left: 120px;
     clear: both;
 }
+main .table_1 {
 
-main .list {
     clear: both;
-    
+    width: 100%;
 }
-main .list ul {
-    display: flex;
-    list-style-type: none;
-    margin-left:320px;
-    float: left;
-    text-align: center;
-    
-}
-main .list ul #ic {
-    margin-right: 240px;
+
+main .table_1 i {
     margin-top: 50px;
 }
 
-main .list #ic {
-    width: 60px ;
+main .table_1 i {
+    width: 60px;
     height: 60px;
-    background:rgb(65, 116, 76);
+    background: rgb(65, 116, 76);
     color: white;
     border-radius: 50%;
     margin-right: 15px;
     font-size: 30px;
     position: relative;
+    padding-top: 15px;
 }
-main .list i {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
+
 main table {
     clear: both;
     padding-top: 0px;
     margin: auto;
-    
-    
 }
 
 main table tr td {
     padding-right: 40px;
     text-align: center;
     width: 300px;
-    
-  
 }
-main table tr  th {
+
+main table tr th {
     padding-right: 40px;
     text-align: center;
-   
 }
+
 main .table_1 table tr #title {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-@media screen and(max-width:1000px) {
-   .shows{
-       width: 100%;
-       height: 5%;
-       float: left;
-   }
-   aside {
-      width: 100%;
-      height: 30%;
-      float: left;
-       
-   }
-   article{
-       width: 100%;
-       height: 30%;
-       float: left;
-   }
-   .list {
-       width: 100%;
-       height: 15%;
-   }
-   .table_1 {
-       width: 100%;
-       height: 20%;
-   }
 
-   
+@media screen and(max-width:1000px) {
+    aside{
+        width: 100%;
+        height: 50%;
+    }
+    article {
+        width: 100%;
+    
+    }
 }
