@@ -176,17 +176,20 @@ main table {
     padding-top: 0px;
     margin: auto;
     
+    
 }
 
 main table tr td {
     padding-right: 40px;
     text-align: center;
     width: 300px;
+    
   
 }
 main table tr  th {
     padding-right: 40px;
     text-align: center;
+   
 }
 main .table_1 table tr #title {
     padding-top: 10px;
