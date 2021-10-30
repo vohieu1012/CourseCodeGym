@@ -2,44 +2,44 @@
     box-sizing: border-box;
 }
 
-body {
+ body {
     background-color: white;
     border: 1px solid white;
 }
 
-main {
-    height: 1000px;
+.main {
+    height: 1200px;
 }
 
-main .shows {
+.main .shows {
     display: flex;
     float: left;
     margin-left: 115px;
     margin-bottom: 20px;
 }
 
-main .shows a {
+.main .shows a {
     text-decoration: none;
     color: black;
 }
 
-main .shows i {
+.main .shows i {
     font-size: 8px
 }
 
-main .shows .anchor a {
+.main .shows .anchor a {
     padding-right: 5px;
     padding-left: 5px;
 }
 
-aside {
+.aside {
     width: 50%;
     float: left;
     position: relative;
     clear: both;
 }
 
-aside .regis {
+.aside .regis {
     float: right;
     width: 70%;
     background-color: #F5F7FF;
@@ -48,13 +48,13 @@ aside .regis {
     border: 1px solid #F5F7FF;
 }
 
-article {
+.article {
     float: left;
     width: 50%;
     position: relative;
 }
 
-article .newCustom {
+.article .newCustom {
     float: left;
     width: 70%;
     margin-left: 20px;
@@ -64,7 +64,7 @@ article .newCustom {
     border: 1px solid #F5F7FF;
 }
 
-article .newCustom #create {
+.article .newCustom #create {
     background-color: #40AD87;
     color: white;
     width: 150px;
@@ -74,17 +74,17 @@ article .newCustom #create {
     margin-top: 30px;
 }
 
-article .newCustom #create:hover {
+.article .newCustom #create:hover {
     cursor: pointer;
 }
 
-article .newCustom .ele, aside .regis .ele {
+.article .newCustom .ele, .aside  .regis .ele {
     margin-left: 50px;
     position: absolute;
     margin-top: 30px;
 }
 
-.regis form input {
+.aside .regis form input {
     width: 350px;
     height: 40px;
     text-shadow: none;
@@ -122,28 +122,28 @@ article .newCustom .ele, aside .regis .ele {
     color: #40AD87;
 }
 
-aside p, article p{
+.aside p, .article p{
     font-weight: bolder;
 }
 
-main h1 {
+.main h1 {
     margin-left: 120px;
     clear: both;
 }
-main .table_1 {
+.main .table_1 {
 
     clear: both;
     width: 100%;
 }
 
-main .table_1 i {
+.main .table_1 i {
     margin-top: 50px;
 }
 
-main .table_1 i {
+.main .table_1 i {
     width: 60px;
     height: 60px;
-    background: rgb(65, 116, 76);
+    background: #40AD87;
     color: white;
     border-radius: 50%;
     margin-right: 15px;
@@ -152,35 +152,66 @@ main .table_1 i {
     padding-top: 15px;
 }
 
-main table {
+.main table {
     clear: both;
     padding-top: 0px;
     margin: auto;
 }
 
-main table tr td {
+.main table tr td {
     padding-right: 40px;
     text-align: center;
     width: 300px;
 }
 
-main table tr th {
+.main table tr th {
     padding-right: 40px;
     text-align: center;
 }
 
-main .table_1 table tr #title {
+.main .table_1 table tr #title {
     padding-top: 10px;
     padding-bottom: 10px;
-}
+} 
 
-@media screen and(max-width:1000px) {
-    aside{
-        width: 100%;
-        height: 50%;
+@media screen and (max-width:1200px) {
+    .main h1{
+        margin-left:0px ;
+        clear: both;
     }
-    article {
+    .main .shows {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .aside {
+        width: 100%;
+        height: 400px;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .article {
+        width: 100%;
+        height: 400px;
+        float: left;
+    }
+    .aside .regis {
+        width: 100%;
+        float: left;
+        height: 400px;
+
+    }
+    .article .newCustom {
+        width: 100%;
+        height: 400px;
+        margin-left: 0px;
+        float: left;
+       
+    }
+    .table_1 {
         width: 100%;
     
     }
+}
+@media screen and (max-width:576px) {
+    
 }
