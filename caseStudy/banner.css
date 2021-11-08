@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(images/banner.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   
+}
+.logo {
+    padding:20px;
+}
+.banner-text {
+    text-align: center;
+    color: white;
+}
+.banner-text h1 {
+    font-size: 130px;
+    padding-top: 150px;
+}
+.banner-text p{
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.banner-btn a{
+    border: 1px solid white;
+    width: 150px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin-left: 20px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+.banner-btn a:hover span {
+    width: 100%;
+
+}
+.banner-btn a  span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    transition: 0.5s;
+    z-index: -1;
+    display: block;
+}
+.banner-btn a:hover {
+    color: black;
+}

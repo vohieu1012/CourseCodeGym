@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-img {
+    max-width: 370px;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+#footer {
+    padding: 100px 0 20px;
+    background: #efefef;
+    position: relative;
+    margin-top:100px ;
+}
+.footer-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-links  {
+   text-align: center;
+}
+.social-links  i {
+    padding-left: 20px;
+}

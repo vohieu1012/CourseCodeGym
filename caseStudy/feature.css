@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#feature {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.feature-box {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+}
+.features {
+    width: 35%;
+}
+.feature-img {
+    height: 450px;
+}
+.feature-img img {
+    height: 100%;
+    border-radius: 10px;
+}
+.features-desc {
+    display: flex;
+    margin-bottom: 20px;
+
+   
+}
+.features h1 {
+    margin-bottom: 20px;
+}
+.feature-icon {
+    margin-top: 20px;
+}
+.feature-icon i {
+    color: cadetblue;
+    font-size: 28px;
+    padding: 20px;
+    
+}
