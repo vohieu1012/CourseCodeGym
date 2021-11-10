@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./libs/js/bootstrap.min.js">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header  -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_620:2976)">
+                    <path d="M4.44336 3.77778L8.22114 0H23.3322L27.11 3.77778L19.5545 11.3333H11.9989L4.44336 3.77778Z" fill="#008254"/>
+                    <path d="M4.44379 3.77734L0.666016 7.55512L8.22157 30.2218L11.9993 11.3329L4.44379 3.77734Z" fill="#006642"/>
+                    <path d="M27.1102 3.77734L30.888 7.55512L23.3325 30.2218L19.5547 11.3329L27.1102 3.77734Z" fill="#006642"/>
+                    <path d="M8.2207 30.2219L11.9985 11.333H19.554L23.3318 30.2219H8.2207Z" fill="#81D6B8"/>
+                    <path d="M4.44336 3.77734L11.9989 11.3329L8.22114 30.2218L4.44336 3.77734Z" fill="#40AD87"/>
+                    <path d="M19.5547 11.3329L27.1102 3.77734L23.3325 30.2218L19.5547 11.3329Z" fill="#40AD87"/>
+                    <path d="M4.44336 3.77734L11.9989 11.3329H19.5545L27.11 3.77734L19.5545 15.1107H11.9989L4.44336 3.77734Z" fill="#006642"/>
+                    <path d="M4.44358 18.8887L2.55469 26.4442L8.22135 30.222L4.44358 18.8887Z" fill="#008254"/>
+                    <path d="M27.1098 18.8887L28.9987 26.4442L23.332 30.222L27.1098 18.8887Z" fill="#008254"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_620:2976">
+                <rect width="30.2222" height="30.2222" fill="white" transform="translate(0.666016)"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <div class="logo logo__text">
+                    <h1>SE06</h1>
+                </div>
+            </div>
+            <div class="search-bar">
+                <input type="text" class="search-bar__input" placeholder="Search for products">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="nav">
+                <ul class="nav-list">
+                    <li class="list-item">
+                        <a href="#Home">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#Service">Customer Service</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="icon order">
+                <img src="./assets/img/Order.svg" class="order__icon"></img>
+            </div>
+            <div class="icon cart">
+                <img src="./assets/img/Cart.svg" class="cart__icon"></img>
+
+            </div>
+            <div class="button">
+                <div class="btn-signin">
+                    <button>Sign In</button>
+                </div>
+                <div class="btn-signup">
+                    <button>Sign Up</button>
+
+                </div>
+            </div>
+            <div class="nav-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+
+    </header>
+    <!-- Header -->
+
+    <!-- Body -->
+    <div id="main">
+        <div class="container">
+            <div class="row mb-5 mt-5 direction">
+                <a href="#home">Home</a>
+                <i class="fas fa-chevron-right"></i>
+                <a href="#">Sign in</a>
+            </div>
+            <div class="row mb-3">
+                <h1>Customer Sign In</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="container">
+                        <Form>
+
+                            <div class="form-control">
+                                <h5 class="form-header">Registered Customer</h5>
+                                <p class="form-note">If you have an account, sign in with your email address.</p>
+                                <div class="form-group">
+                                    <label for="#Email" class="form-group__label">Email <span>*</span></label>
+                                    <input type="email" id="email" class="form-group__input col-md-12" placeholder="Your Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="#Email" class="form-group__label">Password <span>*</span></label>
+                                    <input type="password" id="email" class="form-group__input col-md-12" placeholder="Your Password">
+                                </div>
+                                <div class="button">
+                                    <button class="form__btn col-md-4">Sign in</button>
+                                    <div class="form__forgot-password col-md-8">
+                                        <a href="#">Forgot your password ?</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </Form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <Form>
+                        <div class="form-control">
+                            <div class="container">
+                                <h5 class="form-header">New Customer ?</h5>
+                                <p class="text">Creating an account has many benefits:
+                                </p>
+                                <ul class="list">
+                                    <li class="list__item">Check out faster</li>
+                                    <li class="list__item">Keep more than one address</li>
+                                    <li class="list__item">Track orders and more</li>
+                                </ul>
+
+                                <button class="btn-signup col-md-7">Create account</button>
+                            </div>
+                        </div>
+                    </Form>
+                </div>
+
+            </div>
+            <div class="row mt-5 mb-5">
+                <div class="col-lg-4">
+                    <div class="container">
+                        <div class="item__header">
+                            <div class="icon-wrapper--circle">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                        </div>
+                        <div class="item__content">
+                            <div class="content__header">
+                                <h3>Product support</h3>
+                            </div>
+                            <div class="content__body">
+                                <p>Up to 3 years on-site warranty available for your peace of mind.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="container">
+                        <div class="item__header">
+                            <div class="icon-wrapper--circle">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="item__content">
+                            <div class="content__header">
+                                <h3>Personal Account</h3>
+                            </div>
+                            <div class="content__body">
+                                <p>With big discounts, free delivery and a dedicated support specialist.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="container">
+                        <div class="item__header">
+                            <div class="icon-wrapper--circle">
+                                <svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.2047 1.22977C25.1293 1.04194 24.9844 0.89041 24.8001 0.806715C24.6158 0.723019 24.4063 0.713599 24.2152 0.780413C24.0242 0.847227 23.8662 0.985132 23.7742 1.16544C23.6823 1.34574 23.6633 1.55457 23.7214 1.74847C24.9291 5.21947 22.5319 7.81167 20.7041 9.20007L19.9657 8.14187C19.7174 7.78697 19.1623 7.49187 18.7307 7.48667L14.5863 7.50487C14.08 7.52016 13.5873 7.67198 13.1602 7.94427L0.948006 16.5074C0.663949 16.7073 0.470671 17.0116 0.410489 17.3537C0.350307 17.6957 0.428126 18.0477 0.626906 18.3326L6.17661 26.273C6.59261 26.8645 7.25691 26.793 7.84971 26.3796L20.0619 17.8152C20.4129 17.5669 20.8185 17.0313 20.9615 16.6218L22.2589 12.5333C22.4019 12.1251 22.3148 11.5024 22.0665 11.1475L21.6167 10.5027C24.0711 8.62157 26.6191 5.29747 25.2047 1.22977V1.22977ZM19.5224 13.3952C19.2974 13.5527 19.0436 13.6643 18.7755 13.7236C18.5074 13.783 18.2302 13.7889 17.9597 13.7411C17.6893 13.6933 17.431 13.5927 17.1994 13.445C16.9679 13.2973 16.7678 13.1054 16.6104 12.8804C16.2918 12.4249 16.1669 11.8617 16.2632 11.3143C16.3595 10.7668 16.669 10.28 17.1239 9.96057C17.4805 9.71073 17.9063 9.57856 18.3416 9.58252C18.777 9.58648 19.2003 9.72638 19.5523 9.98267C19.1987 10.1959 18.9556 10.3207 18.9101 10.3402C18.749 10.417 18.6187 10.5463 18.5406 10.7069C18.4626 10.8674 18.4414 11.0497 18.4805 11.2239C18.5196 11.3981 18.6168 11.5539 18.756 11.6656C18.8952 11.7774 19.0683 11.8385 19.2468 11.8391C19.3586 11.8391 19.473 11.8131 19.5809 11.7624C19.8331 11.6428 20.1035 11.5011 20.3856 11.3334C20.4505 11.7235 20.4039 12.1239 20.2512 12.4887C20.0985 12.8535 19.8459 13.1677 19.5224 13.3952V13.3952Z" fill="white"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="item__content">
+                            <div class="content__header">
+                                <h3>Amazing savings</h3>
+                            </div>
+                            <div class="content__body">
+                                <p>Up to 70% off new Products, you can be sure of the best price.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Body -->
+
+    <!-- Footer -->
+    <div class="row footer">
+        <div class="container">
+            <div class="row subscription display-flex justify-content-center align-items-center ">
+                <div class="col-md-7 col-sm-12">
+                    <h3>Subscribe To Our Lastest Deal, Products,...</h3>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <div class="row display-flex justify-content-center align-items-center">
+                        <div class="col-md-9 col-sm-8">
+                            <input type="email" class="email-input" placeholder="Your email">
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <button type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row category">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <p class="category__header">New Arrivals</p>
+                            <ul class="category__list">
+                                <li class="list-item">
+                                    <a href="#">Laptops</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">PCs</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Funiture</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Beauty</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Clothes</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Baby</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <p class="category__header">New Arrivals</p>
+                            <ul class="category__list">
+                                <li class="list-item">
+                                    <a href="#">Laptops</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">PCs</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Funiture</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Beauty</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Clothes</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Baby</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <p class="category__header">New Arrivals</p>
+                            <ul class="category__list">
+                                <li class="list-item">
+                                    <a href="#">Laptops</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">PCs</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Funiture</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Beauty</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Clothes</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Baby</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <p class="category__header">New Arrivals</p>
+                            <ul class="category__list">
+                                <li class="list-item">
+                                    <a href="#">Laptops</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">PCs</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Funiture</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Beauty</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Clothes</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#">Baby</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p class="category__header">Address</p>
+                    <ul class="category__list">
+                        <li class="list-item">
+                            Address : <span>1234 Street Adress City Address, 1234</span>
+                        </li>
+                        <li class="list-item">
+                            Phones : <span>(00) 1234 5678</span>
+                        </li>
+                        <li class="list-item">
+                            E-mail : <span>se06@email.com</span>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="row socials">
+                <div class="socials-group text-white">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="payment align-items-center">
+                    <div class="brand"><img src="./assets/img/payment-methods/light/Group 10.svg" alt=""></div>
+                    <div class="brand"><img src="./assets/img/payment-methods/light/Group 2.svg" alt=""></div>
+                    <div class="brand"><img src="./assets/img/payment-methods/light/Group 7.svg" alt=""></div>
+                    <div class="brand"><img src="./assets/img/payment-methods/light/Vector.svg" alt=""></div>
+                    <div class="brand"><img src="./assets/img/payment-methods/light/visa.svg" alt=""></div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright <i class="far fa-copyright"></i> 2021 SE06 Co Ltd.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .header {
+            margin-top: 15px;
+            width: 100%;
+            background-color: orange;
+            margin-bottom: 15px;
+            height: 30px;
+         
+        }
+        .center {
+            clear: both;
+        }
+        .center .left {
+            width: 20%;
+            float: left;
+            padding-right: 20px;
+            background-color: orange;
+            margin-bottom: 15px;
+           
+            margin-left: 20px;
+            height: 30px;
+        }
+        .center .main {
+            width: 60%;
+            float: left;
+            padding-right: 20px;
+            background-color: orange;
+            margin-right: 15px;
+            height: 30px;
+        }
+        .center .right {
+            width: 15%;
+            float: left;
+            background-color: orange;
+            height: 30px;
+        }
+        .footer {
+            width: 100%;
+            float: left;
+            background-color: orange;
+            height: 30px;
+
+        }
+        .wrap{
+            background-color: rgb(201, 190, 177);
+        }
+        body {
+            height: 150px;
+        }
+        .wrap {
+            position: relative;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">header</div>
+        <div class="center">
+            <div class="left">menu</div>
+            <div class="main">main</div>
+            <div class="right">right</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+            background-color: cadetblue;
+            padding: 20px;
+        }
+        .item {
+           background-color: burlywood;
+           padding: 30px;
+           text-align: center;
+        }
+        .i1{
+           grid-column: 1/4;
+          
+        }
+        .i2{
+            grid-row: 2/4;
+        }
+        /* .i5 {
+            grid-area: ;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item i1">1</div>
+        <div class="item i2">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item i5">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+    </div>
+</body>
+</html>
