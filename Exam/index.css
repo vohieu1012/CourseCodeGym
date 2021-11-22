@@ -1,0 +1,150 @@
+body {
+    box-sizing: border-box;
+}
+.header__top {
+      display: flex;
+  }
+  .header__logo {
+      clear: both;
+    
+  }
+  
+ 
+    .header__logo  {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 120px;
+    }
+    .header__logo img {
+        height: 30px;
+    }
+    .header__nav {
+        margin-left: auto;
+    }
+    .nav__item {
+        text-decoration: none;
+        font-size: 18px;
+        color: rgb(20, 20, 20);
+        margin-top: 20px;
+        margin-right: 60px;
+    }
+    .nav__item--btn {
+        margin-right: 150px;
+        display: block;
+        border: 1px solid;
+        padding: 10px;
+        color: rgb(65, 92, 40);
+        margin-top: 10px;
+    }
+    .header__banner {
+      background-image: url(../Boostrap/images/slider.jpg);
+     background-attachment: fixed;
+     height: 500px;
+     text-align: center;
+     color:white;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+      }
+    .wrap__title {
+        padding-top: 80px;
+      
+    }
+    .wrap__subtitle {
+        padding-top:30px ;
+        font-size: 18px;
+    }
+    .subtitle--unique {
+        font-size: 14px;
+    }
+    .wrap {
+        background-color: rgb(43, 42, 42);
+        height: 100%;
+        opacity: 0.7;
+    }
+.box__square {
+    width: 70px;
+    height: 70px;
+    background-color: turquoise;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.box__title {
+    color: turquoise;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.box__paragraph {
+    color: black;
+    font-size: 14px;
+}
+
+.text {
+    padding-top: 20px;
+    border-top: 1px solid rgb(245, 240, 240);
+    display: inline-block;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.footer {
+    background-color: rgb(92, 86, 86);
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 100px;
+
+}
+
+.line__color {
+    color: turquoise
+}
+
+.mission {
+    background: rgb(233, 227, 227);
+}
+.component__image {
+    height: 94px;
+    width: 128px;
+    margin: auto;
+}
+.component__image img {
+    width: 100%;
+}
+.component__paragraph {
+    margin-top: 50px;
+}
+.component__btn--btn {
+    background-color:white ;
+    color: turquoise;
+    border:1px solid turquoise;
+}
+.mission__title {
+    padding-top: 30px;
+}
+.section__1 {
+    background: rgb(233, 227, 227);
+}
+.top__event--date-color {
+    color: turquoise;
+}
+.top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.top__event{
+    padding-left: 150px;
+   
+}
+.top__regis--click{
+    background-color:turquoise;
+    color: white;
+    border:1px solid turquoise;
+    padding:8px ;
+}
