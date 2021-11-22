@@ -58,7 +58,8 @@ body {
         font-size: 14px;
     }
     .wrap {
-        background-color: rgb(43, 42, 42);
+        box-shadow:  50px 50px 150px 150px rgb(43, 42, 42) inset;
+       
         height: 100%;
         opacity: 0.7;
     }
