@@ -26,10 +26,7 @@ body {
     z-index: 1;
     height: 450px;
 }
-.section__4{
-    background: #F5F7FF;
-    
-}
+
 .contact {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -37,6 +34,10 @@ body {
 .item__icon img {
  
  opacity: 0.3;
+}
+.section__4{
+    background: #F5F7FF;
+    
 }
 .btn  {
     width: 151px;
