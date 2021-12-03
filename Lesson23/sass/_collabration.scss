@@ -1,0 +1,30 @@
+.collaborate {
+    max-width: 1110px;
+    margin: 0 auto; 
+    .collaborate__block {
+      text-align: center;
+      margin-top: 35px;
+      margin-bottom: 45px; }
+    .collaborate__logo {
+      width: 130px;
+      margin-bottom: 30px; }
+      .collaborate__logo--spacing {
+        margin-top: 34px; }
+    .collaborate__subtitle {
+      text-transform: uppercase;
+      color: #575656;
+      font-size: 17px;
+      margin-bottom: 10px; }
+    .collaborate__paragraph {
+      color: #5b6172;
+      font-size: 14px;
+      max-width: 340px;
+      margin: 0 auto 30px;
+      line-height: 27px; }
+    .collaborate__link {
+      text-transform: uppercase;
+      color: #61c0bd;
+      border: 2px solid #b4e0e6;
+      padding: 9px 44px;
+      font-size: 14px; }
+    }

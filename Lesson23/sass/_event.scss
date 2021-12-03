@@ -1,0 +1,34 @@
+.event {
+    max-width: 1110px;
+    margin: 0 auto 35px;
+    height: 118px;
+    clear: both;
+    padding-top: 35px;
+    .event__next {
+        float: left;
+    }
+    .event__next-event {
+        font-size: 17px;
+        color: #61c0bd;
+        font-weight: 600;
+    }
+    .event__timing {
+        color: #575656;
+    }
+    .event__details {
+        margin-top: 8px;
+        font-size: 14px;
+        color: #5b6172;
+    }
+    .event__register {
+        float: right;
+        margin-top: 11px;
+    }
+    .event__btn {
+        background: #5fc0c3;
+        color: white;
+        padding: 11px 21px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+}
