@@ -119,4 +119,6 @@
       margin-top: 50px;
   }
   
-  
+  input {
+    width: 300px;
+  }

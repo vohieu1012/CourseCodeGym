@@ -92,20 +92,20 @@
             <div class="skill">
                 <p class="skill__title">Kỹ Năng</p>
                 <div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <input type="range" min="1" max="100" value="50" class="slider_0" id="myRange_0">
                     <p><b>Value: <span id="demo"></span></b></p>
                 </div>
                 <div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                    <p><b>Value: <span id="demo"></span></b></p>
+                    <input type="range" min="1" max="100" value="60" class="slider_1" id="myRange_1">
+                    <p><b>Value: <span id="demo_1"></span></b></p>
                 </div>
                 <div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                    <p><b>Value: <span id="demo"></span></b></p>
+                    <input type="range" min="1" max="100" value="70" class="slider_2" id="myRange_2">
+                    <p><b>Value: <span id="demo_2"></span></b></p>
                 </div>
                 <div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                    <p><b>Value: <span id="demo"></span></b></p>
+                    <input type="range" min="1" max="100" value="80" class="slider_3" id="myRange_3">
+                    <p><b>Value: <span id="demo_3"></span></b></p>
                 </div>
                 
             </div>
@@ -122,26 +122,46 @@
 
 </html>
 <script>
-    
-    var slider = document.getElementById("myRange");
+var slider_0= document.getElementById("myRange_0");
 var output = document.getElementById("demo");
 
 // Hiển thị giá trị thanh trượt mặc định
-output.innerHTML = slider.value;
+output.innerHTML = slider_0.value;
 //Cập nhật giá trị thanh trượt hiện tại (mỗi khi bạn kéo tay cầm thanh trượt)
-slider.oninput = function()
+slider_0.oninput = function()
 {
   output.innerHTML = this.value;
 }
-var slider = document.getElementById("myRange");
-var output = document.getElementById("demo");
+var slider_1= document.getElementById("myRange_1");
+var output_1= document.getElementById("demo_1");
 
 // Hiển thị giá trị thanh trượt mặc định
-output.innerHTML = slider.value;
+output_1.innerHTML = slider_1.value;
 //Cập nhật giá trị thanh trượt hiện tại (mỗi khi bạn kéo tay cầm thanh trượt)
-slider.oninput = function()
+slider_1.oninput = function()
 {
-  output.innerHTML = this.value;
+  output_1.innerHTML = this.value;
 }
+var slider_2= document.getElementById("myRange_2");
+var output_2= document.getElementById("demo_2");
+
+// Hiển thị giá trị thanh trượt mặc định
+output_2.innerHTML = slider_2.value;
+//Cập nhật giá trị thanh trượt hiện tại (mỗi khi bạn kéo tay cầm thanh trượt)
+slider_2.oninput = function()
+{
+  output_2.innerHTML = this.value;
+}
+var slider_3= document.getElementById("myRange_3");
+var output_3= document.getElementById("demo_3");
+
+// Hiển thị giá trị thanh trượt mặc định
+output_3.innerHTML = slider_3.value;
+//Cập nhật giá trị thanh trượt hiện tại (mỗi khi bạn kéo tay cầm thanh trượt)
+slider_3.oninput = function()
+{
+  output_3.innerHTML = this.value;
+}
+
 
 </script>
