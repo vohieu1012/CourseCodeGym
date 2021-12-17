@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container_fluid">
+        <div class="section__1">
+            <h3 class="section__1-paragraph">Nguyễn Văn A</h3>
+            <h5 class="section__1-paragraph">Nhân viên.....</h5>
+
+        </div>
+        <div class="section__1-triangle"></div>
+
+    </div>
+    <div class="section__2 row">
+        <div class="section__2-left col-8">
+            <div class="mainHeader">
+                <p class="mainHeader__title">Mục tiêu nghề nghiệp</p>
+
+
+            </div>
+            <div class="mainExprience">
+                <p class="mainExprience__title">Kinh nghiệm </p>
+                <div class="mainExprience__wrap row">
+                    <div class="mainExprience__wrap--time col-3">8/2012 - 8/2013</div>
+                    <div class="mainExprience__wrap--local col-9">
+                        <p class="location">Vị trí</p>
+                        <div class="borderLine"></div>
+                    </div>
+                </div>
+                <div class="mainExprience__wrap row">
+                    <div class="mainExprience__wrap--time col-3">8/2012 - 8/2013</div>
+                    <div class="mainExprience__wrap--local col-9">
+                        <p class="location">Vị trí</p>
+                        <div class="borderLine"></div>
+                    </div>
+                </div>
+                <div class="mainExprience__wrap row">
+                    <div class="mainExprience__wrap--time col-3">8/2012 - 8/2013</div>
+                    <div class="mainExprience__wrap--local col-9">
+                        <p class="location">Vị trí</p>
+                        <div class="borderLine"></div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="mainExprience">
+                <p class="mainExprience__title">Dự án tham gia </p>
+                <div class="mainExprience__wrap row">
+                    <div class="mainExprience__wrap--time col-3">8/2012 - 8/2013</div>
+                    <div class="mainExprience__wrap--local col-9">
+                        <p class="location">Vị trí</p>
+                        <div class="borderLine"></div>
+                    </div>
+                </div>
+                <div class="mainExprience__wrap row">
+                    <div class="mainExprience__wrap--time col-3">8/2012 - 8/2013</div>
+                    <div class="mainExprience__wrap--local col-9">
+                        <p class="location">Vị trí</p>
+                        <div class="borderLine"></div>
+                    </div>
+                </div>
+                <div class="mainExprience__wrap row">
+                    <div class="mainExprience__wrap--time col-3">8/2012 - 8/2013</div>
+                    <div class="mainExprience__wrap--local col-9">
+                        <p class="location">Vị trí</p>
+                        <div class="borderLine"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="sectioln__2-right col-4">
+            <div class="borderDot">
+                <div class="borderDot__top"></div>
+                <div class="borderDot__bot"></div>
+            </div>
+            <div class="skill">
+                <p class="skill__title">Kỹ Năng</p>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <p><b>Value: <span id="demo"></span></b></p>
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <p><b>Value: <span id="demo"></span></b></p>
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <p><b>Value: <span id="demo"></span></b></p>
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <p><b>Value: <span id="demo"></span></b></p>
+                </div>
+                
+            </div>
+            <div class="contact">
+                <p class="contact__title">Liên hệ</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    
+
+</body>
+
+</html>
+<script>
+    
+    var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+
+// Hiển thị giá trị thanh trượt mặc định
+output.innerHTML = slider.value;
+//Cập nhật giá trị thanh trượt hiện tại (mỗi khi bạn kéo tay cầm thanh trượt)
+slider.oninput = function()
+{
+  output.innerHTML = this.value;
+}
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+
+// Hiển thị giá trị thanh trượt mặc định
+output.innerHTML = slider.value;
+//Cập nhật giá trị thanh trượt hiện tại (mỗi khi bạn kéo tay cầm thanh trượt)
+slider.oninput = function()
+{
+  output.innerHTML = this.value;
+}
+
+</script>

@@ -114,6 +114,7 @@ a:hover{
     .carousel-item img {
         height: 220px;
         max-inline-size: -webkit-fill-available;
+
     }
     .product-4, .product-5{
         display: none;
@@ -122,9 +123,13 @@ a:hover{
 @media (max-width: 768px) {
     .carousel-item img {
         height: 160px;
+        width: 100%;
     }
     .product-3{
         display: none;
+    }
+    .row-1 {
+       margin-right: center;
     }
 }
 @media (max-width: 576px) {

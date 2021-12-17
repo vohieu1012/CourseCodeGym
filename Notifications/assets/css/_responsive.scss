@@ -1,0 +1,97 @@
+$font__medium: 12px;
+$font_min: 8px;
+$padding: 5px;
+@mixin padding-paragraph {
+    padding-right: $padding;
+    padding-left: $padding;
+}
+@mixin fontsize__medium {
+    font-size: $font__medium;
+}
+@media screen and (max-width: 1200px) {
+   .main {
+       .wrap {
+           .notification {
+            .notification__paragraph {
+                @include padding-paragraph;
+            }
+           }
+       }
+   }
+}
+@media screen and (max-width: 992px) {
+    .sidebar {
+        padding: 0px 0px 0px $padding;
+        .component__icon {
+            width: 25px;
+        }
+        .component__advance {
+            font-size: 12px;
+        }
+    }
+    .main {
+        .wrap {
+            margin-left: 0px;
+            .notification {
+            .notification__paragraph {
+                @include fontsize__medium;
+            }
+            .notification__button {
+                @include fontsize__medium;
+            }
+        }
+    }
+    }
+}
+@media screen and (max-width: 768px) {
+    .sidebar {
+        .component {
+            .component__advance {
+                @include fontsize__medium;
+            }
+        }
+    }
+   
+    .main {
+        .wrap {
+            .notification {
+            .notification__paragraph {
+                @include fontsize__medium;
+            }
+            .notification__button {
+                @include fontsize__medium;
+            }
+        }
+    }
+    }
+}
+@media screen and (max-width: 576px) {
+    .sidebar {
+        .component {
+        .component__advance {
+            font-size: 4px;
+        }
+        .component__icon {
+            font-size: $font_min;
+        }
+    }
+    }
+    .main {
+        .wrap {
+            .notification{
+            .notification__paragraph {
+                font-size: $font_min;
+                line-height: $font_min;
+            }
+            .notification__button {
+                font-size: $font_min;
+            }
+
+            .notification__image {
+                width: 56px;
+                height: 56px;
+            }
+        }
+    }
+    }
+}

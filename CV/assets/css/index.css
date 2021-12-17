@@ -1,0 +1,122 @@
+.section__1-triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid rgb(112, 78, 78);
+    margin-left: 150px;
+  }
+  .section__1 {
+      background-color: rgb(112, 78, 78);
+  }
+  .section__1-paragraph {
+      margin-bottom: 0px;
+      text-align: center;
+      padding-bottom: 10px;
+      padding-top: 20px;
+  }
+  .section__2-left  {
+      padding-right: 50px;
+  }
+  .mainHeader__title {
+      padding: 10px 150px 120px 150px;
+      border-style: dotted ;
+      color: chocolate;
+      
+      font-weight: 600;
+      display: inline-block;
+  }
+  .mainHeader {
+      margin-top: 10px;
+      margin-left: 160px;
+  }
+  .mainExprience__title {
+        font-size: 28px;
+        font-weight: 600;
+        padding-left: 240px;
+        color: rgb(143, 121, 121);
+  }
+  .borderLine{
+      border: 3px dotted rgb(143, 121, 121) ;
+      border-left: none;
+      border-right: none;
+      padding: 20px;
+    margin-bottom: 25px;
+  }
+  .mainExprience__wrap--time {
+      padding-left: 30px;
+      color: chocolate;
+      
+      font-weight: 600;
+  }
+  .location{
+    color: chocolate;
+    font-weight: 600;
+  }
+  .contact__title{
+    color: rgb(143, 121, 121);
+    font-weight: 600; 
+    font-size: 28px;
+  }
+  .skill__title {
+    color: rgb(143, 121, 121);
+    font-weight: 600; 
+    font-size: 28px;
+  }
+  .borderDot__top{
+      border-top: 5px dotted  rgb(143, 121, 121);
+      border-bottom: 3px dotted  rgb(143, 121, 121);
+      padding: 25px;
+      margin-top: 250px;
+     
+  }
+  .borderDot__bot {
+    margin-top: 25px;
+    border-top: 3px dotted  rgb(143, 121, 121);
+    border-bottom: 3px dotted  rgb(143, 121, 121);
+    padding: 15px;
+   
+  }
+  .sectioln__2-right {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .skill {
+      margin-top: 120px;
+  }
+  /* RangeSlider */
+  .slidecontainer {
+    width: 100%;
+  }
+  .slider {
+    width: 100%;
+    height: 25px;
+    background: #fff;
+    outline: none;
+    opacity: 0.7;
+  }
+  .slider:hover {
+    opacity: 1; /* Hiển thị đầy đủ khi di chuột qua */
+  }
+  /* Tay cầm trượt (sử dụng -webkit- (Chrome, Opera, Safari, Edge) và -moz- (Firefox) 
+  để ghi đè giao diện mặc định) */
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Ghi đè giao diện mặc định */
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: chocolate;
+    cursor: pointer;
+  } 
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: chocolate;
+    cursor: pointer;
+  }
+  .contact {
+      margin-top: 50px;
+  }
+  
+  
