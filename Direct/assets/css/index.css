@@ -195,3 +195,53 @@ body {
     padding: 7px;
     padding-left: 750px;
 }
+@media screen and (max-width:1200px) {
+    .mess__input {
+       width: 550px;
+    }
+    .mess__icon--right {
+        padding-left: 500px;
+    }
+    .component__time {
+        display: none;
+    }
+}
+@media screen and (max-width:992px) {
+    .mess__input {
+        width: 400px;
+     }
+     .mess__icon--right {
+         padding-left: 350px;
+     }
+     
+}
+@media screen and (max-width:768px) {
+    .mess__input {
+        width: 300px;
+     }
+     .mess__icon--right {
+         padding-left: 250px;
+     }
+     .mess__icon--left {
+       visibility: hidden;
+    }
+    .mess__icon--left :first-child{
+        visibility: visible;
+    }
+}
+@media screen and (max-width:576px) {
+    .mess__input {
+        width: 200px;
+     }
+     .mess__icon--right {
+         padding-left: 150px;
+     }
+     .shop__chat {
+    
+         margin-top: 50px;
+     }
+     .direct__bot {
+        margin-top: 90px;
+        
+    }
+}
